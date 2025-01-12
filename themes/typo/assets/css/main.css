@@ -201,7 +201,7 @@ footer a {
   font-family: var(--font-mono);
   min-width: 120px;
   max-width: 120px;
-  text-align: right;
+  text-align: left;
   padding-right: 1rem;
   margin-top: 0rem;
   margin-bottom: 0rem;

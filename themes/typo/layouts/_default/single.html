@@ -23,7 +23,7 @@
       {{ with .Date }}
       {{ $dateMachine := . | time.Format "2006-01-02T15:04:05-07:00" }}
       {{ $dateHuman := . | time.Format (default ":date_long" $.Site.Params.singleDateFormat) }}
-      <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+      <time datetime="{{ $dateMachine }}">Posted: {{ $dateHuman }}</time>
       {{end}}
 
       {{ if .Param "readTime" }}
@@ -31,6 +31,13 @@
       {{ .ReadingTime }} min read
       {{end }}
     </p>
+
+      {{ with .Params.location }}
+        <div class="post-location">
+          <span>🌐︎ {{ . }}</span>
+        </div>
+      {{ end }}
+  
 
   </div>
 

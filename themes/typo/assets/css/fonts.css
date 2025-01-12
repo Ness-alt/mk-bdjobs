@@ -1,20 +1,10 @@
 @font-face {
-    font-family: 'InterVariable';
+    font-family: 'Inter Variable';
     src: url('/fonts/Inter/InterVariable.woff2') format('woff2');
     font-weight: 400 800;
     font-style: normal;
     font-display: swap;
-    src: url("InterVariable.woff2") format("woff2");
 }
-
-@font-face {
-    font-family: 'InterVariable-Italic';
-    src: url('/fonts/Inter/InterVariable-Italic.woff2') format('woff2');
-    font-style: italic;
-    font-weight: 400 800;
-    font-display: swap;
-    src: url("InterVariable-Italic.woff2") format("woff2");
-  }
 
 @font-face {
     font-family: 'Literata';

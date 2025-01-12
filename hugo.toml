@@ -10,7 +10,7 @@ tag = 'tags'
 
 [params]
 # Meta description
-description = "A Tech Blog"
+description = "The number one source for jobs and careers at biodesign & biomaterial companies"
 
 # Appearance settings
 theme = 'auto'
@@ -18,14 +18,13 @@ colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Hi!'
+homeIntroTitle = 'Find your niche in the bioeconomy'
 homeIntroContent = """
-I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
+The number one source for jobs and careers at biodesign & biomaterial companies
 """
 
 # Collection to display on home
-homeCollectionTitle = 'Posts'
+homeCollectionTitle = 'Roles'
 homeCollection = 'posts'
 
 # Lists parameters
